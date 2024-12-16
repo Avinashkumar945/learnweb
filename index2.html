@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pwioi</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style type="text/css">
+        .search{
+            border:1px black solid;
+            display: inline-block;
+            width:540px;
+            height:30px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding:5px;
+            
+        
+        }
+        form .bi-search{
+            border:1px solid black;
+            display:inline-block;
+            width:60px;
+            height:41px;
+            padding:5px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius:20px;
+            margin-left: -4px;
+
+            
+            
+             }
+             .searchbar{
+                display: inline-flex;
+                
+             }
+             .bi-mic-fill{
+                margin-left: 10px;
+                height:41px;
+                width:41px;
+                border-radius: 41px;
+                border:grey;
+             }
+             .bi-youtube{
+                color:red;
+                font-size: 25px;
+             }
+             .bi-list{
+                margin-left: -20px;
+             }
+             .social{
+                font-size: 30px;
+                padding-right:20px ;
+             }
+             header{
+                display: flex;
+                justify-content: space-around;
+                
+             }
+             ul{
+               list-style-type: none;
+               margin-right:20px;
+             }
+             li{
+                font-size: 20px;
+             }
+            section{
+                display: grid;
+                grid-template-columns: 2fr 10fr;
+                margin-right:1000px;
+            }
+           .pw img{
+                height:200px;
+                width:1100px;
+                margin-right: 100px;
+            }
+            li b{
+                font-size: 40px;
+                font-family: arial;
+            }
+             .main a{
+                text-decoration: none;
+                color:black;
+            }
+            .content a{
+                text-decoration: none;
+                color:grey;
+                
+            }
+            .details li{
+                  font-size: 15px;
+                  line-height: 30px;
+            }
+            .subscription-box{
+                border:grey;
+                height: 30px;
+                border-radius: 10px;
+                font-size: 16px;
+                padding:10px;
+            }
+            a:visited{
+                background-color: grey;
+                
+            }
+            a:active{
+                color:black;
+            }
+           .main a:hover{
+                background-color: grey;
+                /*width: 50px;*/
+                display: inline-block;
+                height:40px;
+                align-items: center;
+                padding: 10px;
+            }
+            .content{
+                display:flex;
+                font-family: arial;
+                font-size:18px ;
+                border-bottom:1px solid grey;
+                width: 1200px;
+                margin-left:-8px;
+                
+            }
+            .content nav{
+                padding:10px;
+            }
+            .bi-collection-play{
+             padding-left: 4px;
+            }
+            p{
+                font-size: 10px;
+                font-family: arial;
+            }
+            .main{
+                font-size: 25px;
+                margin-left: 20px;
+                margin-right: 20px;
+                
+            }
+            .youtube{
+                font-size: 20px;
+               
+                padding-left: 20px;
+                font-family:arial;
+            }
+            .searchbar{
+                margin-right: 100px;
+                
+            }
+            .bi-collection-play p{
+                margin-left:-15px;
+                
+
+            }
+            .bi-youtube {
+                margin-left: 20px;
+                padding-bottom:-30px;
+
+            }
+            .main nav{
+                padding-top: 20px;
+            }
+            .social span{
+                padding-left: 20px;
+                font-family: arial;
+            }
+            .id{
+                color:white;
+                background-color: rgb(8, 108, 147);
+                display: inline-block;
+            
+            
+                padding-right: 11px;
+                border-radius: 50%;
+
+                height: 36px;
+                
+            
+            
+            }
+            .for{
+                font-weight: bold;
+                font-family: arial;
+                font-size:25px ;
+                margin-top: 20px;
+            }
+            iframe{
+                border:none;
+                padding-left: 6px;
+                border-radius: 15px;
+            }
+            #video{
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+            .subscription-box  a{
+                text-decoration: none;
+                color:black;
+            }
+            input{
+                width:540px;
+                height:35px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-color: grey;
+
+            }
+            
+            
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="youtube">
+            <span class="bi bi-list"></span>
+            <span class="bi bi-youtube"><b style="color:black; ">YouTube</b></span>
+        </div>
+        <!--<div  class="searchbar">
+            <span class="search"></span>
+            <button class="bi bi-search"></button>
+            <button class=" bi bi-mic-fill"></button>
+        </div>--><form>
+            <input type="text" placeholder="Search">
+            <button class="bi bi-search"></button>
+            <button class=" bi bi-mic-fill"></button>
+        </form>
+        <div class="social">
+            <span class="bi bi-camera-video"></span>
+            <span class="bi bi-bell"></span>
+            <span class="id">I</span>
+        </div>
+    </header>
+    <section>
+        
+        <div class="main">
+            <nav><a href="#"><span class="bi bi-house-door"><p>Home</p></span></a>
+            </nav>
+            <nav><a href="#"><span class="bi bi-play-circle"><p>Shorts</p></span></a>
+        </nav>
+            <nav><a href=""><span class="bi bi-collection-play"><p>Subscriptions</p></span></a>
+            </nav>
+            <nav><a href="#"><span class="bi bi-person-circle"><p>You</p></span></a>
+            </nav>
+        </div>
+        <div class="details">
+           <div class="pw"> <img src="images/pwioi.png" alt="" ></div>
+           <div>
+            <img src="images/pw.png" alt="" width="170" height="150" align="left">
+            <ul>
+                <li><b>PW Institute of Inovation</b></li>
+                <li style="color:grey">@PW-IOI • 7.89K subscribers • 213 videos</li>
+                <li style="color:grey">At the PW Institute of Innovation, We bridge the gap between traditional college education...<span style="color:black">more</span></li> 
+                <li><a href="https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqbERjZ2JxZEdGNEtMYkNRWEYwWE1yYjJ5bUZDZ3xBQ3Jtc0ttWVM3QUYtNFRCanVLc3VZRHExQkxKc3Fubi10YjRncWtQMU83Wk1FR0VHenh0RFBYYTgzWEdiWkZ3LWVlNWJrdGdPYkNlSi1TWnVyVmJFa3M4NFdNaXhIWVRQclQtVERyVTJfRTlnclZOOE5EY2EyZw&q=https%3A%2F%2Fpwioi.com%2F%3Futm_source%3DYoutube%26utm_medium%3DSocial%26utm_campaign%3DOrganic">pwioi.com/?utm_source=Youtube&utm_medium=Social&utm_campaign=Organic...</a>and 8 more links</li>
+                </ul>
+                <button class="subscription-box">
+                    <a href=""><span class="bi bi-bell"> subscribed</span>
+                    <span class="bi bi-chevron-down"></span></a>
+                </button>
+                <div class="content">
+                    <nav><a href=""><b>Home</b></a></nav>
+                    <nav><a href=""><b>Video</b></a></nav>
+                    <nav><a href=""><b>Shorts</b></a></nav>
+                    <nav><a href=""><b>Playlists</b></a></nav>
+                    <nav><b><a href="">Comunity</a></b></nav>
+                    <nav style="color:grey;"><a href=""><span class="bi bi-search"></span></a></nav>
+                </div>
+                <div class="for">For You</div>
+
+                <div id="video">
+        
+                    <div class="about"><iframe name="data" width="170" height="250" src="https://www.youtube.com/embed/Q2NDW_u3s4k" allowfullscreen ></iframe></div>
+                    <div><iframe name="data" width="170" height="250" src="https://www.youtube.com/embed/scsjiBmMiVM" allowfullscreen ></iframe></div>
+                    <div><iframe name="data" width="170" height="250" src="https://www.youtube.com/embed/fsX2GvpSa0s"allowfullscreen></iframe></div>
+                    <div><iframe name="data" width="170" height="250" src="https://www.youtube.com/embed/kVAq12alEZ0"allowfullscreen></iframe></div>
+                    <div><iframe name="data" width="400" height="250" src="https://www.youtube.com/embed/UvYi6UmAUXg"allowfullscreen></iframe></div>
+                    
+
+                </div>
+           </div>
+
+        </div>
+        
+    </section>
+    
+</body>
+</html>
